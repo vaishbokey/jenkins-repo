@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                    sleep 10
+                 sleep 5
                 }
             
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 
-                   sleep 10
+                    sleep 5
                 }
             
         }
@@ -24,7 +24,7 @@ pipeline {
         stage ('Install Stage') {
             steps {
                 
-                 sleep 10
+                    sleep 5
                 }
             
         }
@@ -33,7 +33,7 @@ pipeline {
 
             steps {
                 
-                    echo "This is master branch"
+                    echo "This is Master branch"
                 }
             
         }
