@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                    sh 'mvn clean compile'
+                 sleep 5
                 }
             
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 
-                    sh 'mvn test'
+                    sleep 5
                 }
             
         }
@@ -24,7 +24,7 @@ pipeline {
         stage ('Install Stage') {
             steps {
                 
-                    sh 'mvn install'
+                    sleep 5
                 }
             
         }
